@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamr.medicalsysgui.Controller.RegistroProcedimientoController">
-    
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="com.jamr.medicalsysgui.Controller.RegistroProcedimientoController">
+   <children>
+      <Label layoutX="195.0" layoutY="36.0" text="Registro de Procedimientos">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="116.0" layoutY="105.0" text="Descripcion::" />
+      <TextField layoutX="196.0" layoutY="101.0" prefHeight="25.0" prefWidth="272.0" />
+      <Button layoutX="175.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Guardar" />
+      <Button layoutX="280.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Limpiar" />
+      <Button layoutX="386.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="91.0" text="Cancelar" />
+   </children>
 </AnchorPane>
